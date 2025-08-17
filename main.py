@@ -1,7 +1,8 @@
 print("hi") 
 
-a = 5
-print(a)
+n = int(input("Enter the number"))
+print(n)
 
-b = 4
-print(b) 
+def avg(a,b):
+    return a+b/2
+print(avg(4,5))
